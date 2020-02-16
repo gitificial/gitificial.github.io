@@ -9,19 +9,15 @@ tags: [tmux]
 
 The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple terminal sessions in a single window. 
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
 
 Tested with:
-Software     | Version
------------- | -------------
-OS| Ubuntu 18.04 LTS
-tmux| 2.6
+
+|------------+-----------------|
+| Software   |Version          |
+|------------|:----------------|
+| OS         |Ubuntu 18.04 LTS |
+| tmux       |2.6              |
+|------------+-----------------|
 
 <br/>
 ### one pane left, two panes right
