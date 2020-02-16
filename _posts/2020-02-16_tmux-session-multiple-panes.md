@@ -2,6 +2,7 @@
 title: "tmux session with multiple panes"
 date: 16-02-2020
 author: gitificial
+twitter: ...
 description: "Scripts to open tmux sessions with multiple panes."
 ---
 
