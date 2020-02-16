@@ -15,7 +15,7 @@ tmux| 2.6
 
 <br/>
 ### one pane left, two panes right
-![12tmux](../images/12tmux.png)
+![12tmux](/assets/12tmux.png)
 
 Create a executable shell script with the following content:
 ```bash
@@ -25,7 +25,7 @@ tmux new-session \; split-window -h \; split-window -v \; attach
 
 <br/>
 ### two panes left, two panes right
-![4tmux](../images/4tmux.png)
+![4tmux](/assets/4tmux.png)
 
 Create a executable shell script with the following content:
 ```bash
@@ -36,7 +36,7 @@ tmux new -s '2x2 panes' \; split-window -h \; split-window -v \; select-pane -t 
 
 <br/>
 ### three panes left, three panes right
-![6tmux](../images/6tmux.png)
+![6tmux](/assets/6tmux.png)
 
 Create a executable shell script with the following content:
 ```bash
