@@ -9,10 +9,13 @@ tags: [tmux]
 
 The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple terminal sessions in a single window. 
 
-| First cell|Second cell|Third cell
-| First | Second | Third |
-
-First | Second | | Fourth |
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
 
 Tested with:
 Software     | Version
