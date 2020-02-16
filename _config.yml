@@ -1,6 +1,7 @@
 theme: jekyll-theme-hacker
 title: gitificial's blog
 author: gitificial
+permalink: pretty
 github_username: gitificial
 header_pages:
  - index.md
