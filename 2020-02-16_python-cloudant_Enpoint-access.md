@@ -21,6 +21,7 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
+```
 
 ```python
 # Define the end point and parameters
@@ -36,7 +37,7 @@ def endpointAccess(params, endpoint):
 
 response = endpointAccess(params, endpoint)
 print(response['execution_stats']['results_returned'])
-```
+
 
 [Link](url) and ![Image](src)
 ```
