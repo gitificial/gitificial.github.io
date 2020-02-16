@@ -4,7 +4,7 @@ created: 16-02-2020
 The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple terminal sessions in a single window. 
 
 Tested with:
-             | Version
+Software     | Version
 ------------ | -------------
 OS| Ubuntu 18.04 LTS
 tmux| 2.6
