@@ -22,7 +22,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-`Code`
+`
 # Define the end point and parameters
 endpoint = 'scrapy/_find'
 params = {'selector': {'source': 'pcworld', 'searchterm': 'Joyent'}, 'execution$
@@ -36,7 +36,7 @@ def endpointAccess(params, endpoint):
 
 response = endpointAccess(params, endpoint)
 print(response['execution_stats']['results_returned'])
-
+`
 
 [Link](url) and ![Image](src)
 ```
