@@ -23,7 +23,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[python-cloudant CouchDB Endpoint access](posts/2020-02-16_python-cloudant_CouchDB_Endpoint_access.md) 
+
+and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
