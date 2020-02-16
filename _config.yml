@@ -1,1 +1,4 @@
 theme: jekyll-theme-hacker
+github_username: gitificial
+header_pages:
+ - index.md
