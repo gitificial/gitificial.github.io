@@ -9,6 +9,11 @@ tags: [tmux]
 
 The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple terminal sessions in a single window. 
 
+| First cell|Second cell|Third cell
+| First | Second | Third |
+
+First | Second | | Fourth |
+
 Tested with:
 Software     | Version
 ------------ | -------------
