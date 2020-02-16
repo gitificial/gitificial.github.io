@@ -3,6 +3,8 @@ title: "python-cloudant Couchdb Endpoint Access"
 date: 2018-05-12
 author: gitificial
 description: "python-cloudant Couchdb Endpoint Access"
+categories: [python, couchdb]
+tags: [python, couchdb, python-cloudant]
 ---
 
 This example shows how to call a CouchDB endpoint directly through the python-cloudant Requests session object as described in [python-cloudant Endpoint access](https://python-cloudant.readthedocs.io/en/latest/getting_started.html#endpoint-access).
