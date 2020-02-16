@@ -1,5 +1,9 @@
-## tmux session with multiple panes
-created: 16-02-2020
+---
+title: "tmux session with multiple panes"
+date: 16-02-2020
+author: gitificial
+description: "Scripts to open tmux sessions with multiple panes."
+---
 
 The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple terminal sessions in a single window. 
 
