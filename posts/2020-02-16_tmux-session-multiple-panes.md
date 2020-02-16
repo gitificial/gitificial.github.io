@@ -3,7 +3,7 @@ created: 16-02-2020
 
 The terminal multiplexer [tmux](tmux.github.io) allows to open multiple terminal sessions in a single window. 
 
-
+\
 ### one pane left, two panes right
 ![12tmux](../images/12tmux.png)
 
@@ -13,7 +13,7 @@ Create a executable shell script with the following content:
 tmux new-session \; split-window -h \; split-window -v \; attach
 ```
 
-
+<br/>
 ### two panes left, two panes right
 ![4tmux](../images/4tmux.png)
 
