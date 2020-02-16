@@ -5,7 +5,7 @@ permalink: pretty
 github_username: gitificial
 header_pages:
  - index.md
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - tables
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
