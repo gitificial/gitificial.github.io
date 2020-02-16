@@ -1,4 +1,6 @@
 theme: jekyll-theme-hacker
+title: gitificial's Blog
+author: gitificial
 github_username: gitificial
 header_pages:
  - index.md
