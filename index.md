@@ -1,5 +1,8 @@
 ## Welcome to GitHub Pages
 
+
+[python-cloudant CouchDB Endpoint access](posts/2020-02-16_python-cloudant_CouchDB_Endpoint_access.md) 
+
 You can use the [editor on GitHub](https://github.com/gitificial/gitificial.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -23,7 +26,6 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[python-cloudant CouchDB Endpoint access](posts/2020-02-16_python-cloudant_CouchDB_Endpoint_access.md) 
 
 and ![Image](src)
 ```
