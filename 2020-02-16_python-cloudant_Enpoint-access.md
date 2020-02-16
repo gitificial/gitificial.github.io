@@ -28,7 +28,6 @@ Syntax highlighted code block
 def endpointAccess(params, endpoint):
     end_point = '{0}/{1}'.format(client.server_url, endpoint)
     headers = {'Content-Type': 'application/json'}
-    response = db.r_session.post(end_point, headers=headers, data=json.dumps(pa$
     response = response.json()
     return response
 
