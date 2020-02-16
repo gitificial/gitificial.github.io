@@ -1,4 +1,4 @@
-## python-cloudant Endpoint access
+## python-cloudant CouchDB Endpoint access
 You can use the [editor on GitHub](https://github.com/gitificial/gitificial.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -48,7 +48,7 @@ response = endpointAccess(params, endpoint)
 print(response['execution_stats']['results_returned'])
 ```
 
-[Link](url) and ![Image](src)
+[python-cloudant CouchDB Endpoint access](_posts/2020-02-16_python-cloudant_Enpoint-access.md) and ![Image](src)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
