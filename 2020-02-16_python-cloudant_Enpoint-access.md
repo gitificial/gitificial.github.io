@@ -24,13 +24,11 @@ Syntax highlighted code block
 ```
 
 {% highlight python %}
-
 def endpointAccess(params, endpoint):
     end_point = '{0}/{1}'.format(client.server_url, endpoint)
     headers = {'Content-Type': 'application/json'}
     response = response.json()
     return response
-
 {% endhighlight %}
 
 
