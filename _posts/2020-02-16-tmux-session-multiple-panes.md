@@ -12,12 +12,12 @@ The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple 
 
 Tested with:
 
-|------------+-----------------|
-| Software   |Version          |
-|------------|:----------------|
-| OS         |Ubuntu 18.04 LTS |
-| tmux       |2.6              |
-|------------+-----------------|
+|-------------+-----------------|
+| OS/Software |Version          |
+|-------------|:----------------|
+| Ubuntu      |18.04 LTS        |
+| tmux        |2.6              |
+|-------------+-----------------|
 
 <br/>
 ### one pane left, two panes right
