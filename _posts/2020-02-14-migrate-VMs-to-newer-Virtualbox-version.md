@@ -39,13 +39,8 @@ Remove the VM entries (ONLY delete!!!) from the list.
 
 Run following command in a terminal to reinstall the kernel module:
 ```bash
-sudo /sbin/vboxconfig
+$ sudo /sbin/vboxconfig
 ```
 Create new VM entries with the old VM images (select the appropriate VM folders).
 
-
-
-
-
-
-
+Now everything should work!
