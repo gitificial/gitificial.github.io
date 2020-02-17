@@ -30,14 +30,6 @@ Use following command to install the CouchDB server on your system:
 $ sudo snap install couchdb
 ```
 
-
-
-
-Start the CouchDB server with:
-```bash
-$ sudo snap start couchdb
-```
-
 Use following command to check if the server is running:
 ```bash
 $ curl http://127.0.0.1:5984/
@@ -61,10 +53,23 @@ services:
 ...
 ```
 
-Stop the CouchDB server with:
+Or you use:
 ```bash
+$ sudo snap services
+```
+Which shows you all running snap services:
+```bash
+Service         Startup    Current  Notes
+couchdb.server  aktiviert  aktiv    -
+```
+
+You can start/stop the CouchDB server with the following commands:
+```bash
+$ sudo snap start couchdb
 $ sudo snap stop couchdb
 ```
+
+
 
 <br/>
 You reach the servers Fauxton Web UI with your browser under the following URL:
