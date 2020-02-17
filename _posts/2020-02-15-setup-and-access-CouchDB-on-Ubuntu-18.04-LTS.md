@@ -38,14 +38,25 @@ Start the CouchDB server with:
 sudo snap start couchdb
 ```
 
-Stop the CouchDB server with:
+Use following command to check if the server is running:
 ```bash
-sudo snap stop couchdb
+curl http://127.0.0.1:5984/
 ```
+
+If the CouchDB server is running, you would get the following response:
+```bash
+{"couchdb":"Welcome","version":"2.3.1","git_sha":"c298091a4","uuid":"304ecd0b303cfb59502f5fb090abba4b","features":["pluggable-storage-engines","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
+```
+
 <br/>
 You reach the servers Fauxton Web UI with your browser under the following URL:
 ```bash
 http://127.0.0.1:5984/_utils/
+```
+
+Stop the CouchDB server with:
+```bash
+sudo snap stop couchdb
 ```
 
 
