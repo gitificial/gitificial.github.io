@@ -42,10 +42,11 @@ Stop the CouchDB server with:
 ```bash
 sudo snap stop couchdb
 ```
-
+<br/>
 You reach the servers Fauxton Web UI with your browser under the following URL:
+```bash
 http://127.0.0.1:5984/_utils/
-
+```
 
 
 
