@@ -10,7 +10,7 @@ tags: [tmux]
 
 <br/>
 
-Working with the shell usually leads to more than one open terminal. But it's very tedious to open several terminals and bring them in place before you can start with your work. Fortunately the terminal multiplexer [tmux](https://tmux.github.io) allows you (beside other great features) to open multiple terminal sessions in a single window. And with a simple one-liner shell script you get the terminal arrangement you prefer. Here are just a few examples.
+Working with the shell usually leads to more than one open terminal. But it's very tedious to open several terminals and bring them in place before you can start with your work. Fortunately the terminal multiplexer [tmux](https://tmux.github.io) allows you (beside other great features) to open multiple terminal sessions in a single window. And with a simple one-liner shell script you get the terminal arrangement you prefer. Here are just a few examples. At the very end you find a few useful keystrokes to handle a tmux session.
 
 
 Tested with:
@@ -52,3 +52,21 @@ Create a executable shell script with the following content:
 #!/bin/sh
 tmux new-session \; split-window -p 66 \; select-pane -t 1 \; split-window -v \; select-pane -t 0 \; split-window -h \; select-pane -t 2 \; split-window -h \; select-pane -t 4 \; split-window -h \; select-pane -t 0
 ```
+
+<br/>
+### keystrokes
+
+|----------------------+----------------------------------------|
+| keystroke            |description                             |
+|----------------------|:---------------------------------------|
+| Ctrl-B cursor        |switch from one terminal to another     |
+| Ctrl-B pg-up,-down   |scroll inside a terminal                |
+| Ctrl-c               |leave selected mode (e.g. scrolling)    |
+| Ctrl-B d             |exit tmux session*                      |
+|----------------------+----------------------------------------|
+
+*: To stop running tmux sessions, execute the following command:
+```bash
+$ tmux kill-session
+```
+
