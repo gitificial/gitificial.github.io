@@ -48,6 +48,18 @@ If the CouchDB server is running, you would get a response similar to this:
 {"couchdb":"Welcome","version":"2.3.1","git_sha":"c298091a4","uuid":"304ecd0b303cfb59502f5fb090abba4b","features":["pluggable-storage-engines","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
 ```
 
+Or use snap info to get informations about the service:
+```bash
+$ sudo snap info "couchdb"
+```
+
+If the CouchDB server is running, you would get a response containing this line:
+```bash
+...
+services: couchdb.server: simple, enabled, active
+...
+```
+
 <br/>
 You reach the servers Fauxton Web UI with your browser under the following URL:
 ```bash
