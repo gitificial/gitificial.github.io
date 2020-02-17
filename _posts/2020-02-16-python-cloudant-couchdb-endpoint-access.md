@@ -40,7 +40,7 @@ Assuming that we have several documents with the following structure:
 }
 {% endhighlight %}
 
-We want to know, how many documents possess the field content 'source': 'CNN' and 'category': 'news'. With the following simple script example, we are able to retrieve the count of documents with the specific content:
+We want to know, how many documents possess the field content 'source': 'CNN' and 'category': 'news'. With the following simple script example, we are able to retrieve the count of documents with the specific content. [script](https://github.com/gitificial/CouchDB-Python-Scripts/blob/master/python-cloudant_endpoint-access.py):
 
 {% highlight python %}
 import json
