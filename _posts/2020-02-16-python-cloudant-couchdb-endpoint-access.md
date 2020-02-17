@@ -40,7 +40,7 @@ Assuming that we have several documents with the following structure:
 }
 {% endhighlight %}
 
-We want to know, how many documents have the field content 'source': 'CNN' and 'category': 'news'. With the following simple script example, we are able to retrieve the count of documents with the specific content:
+We want to know, how many documents possess the field content 'source': 'CNN' and 'category': 'news'. With the following simple script example, we are able to retrieve the count of documents with the specific content:
 
 {% highlight python %}
 import json
