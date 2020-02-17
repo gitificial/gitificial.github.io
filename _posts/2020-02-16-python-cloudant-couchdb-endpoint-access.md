@@ -13,6 +13,18 @@ This example shows how to call a CouchDB endpoint directly through the python-cl
 
 
 
+
+{% highlight json %}
+{
+  "_id": "0062fa1f8efa4d9a94cd9fc0cd07f9d2",
+  "_rev": "1-acf955fa098fd3c1add1bb3a757e298e",
+  "source": "CNN",
+  "category": "news",
+  "content": "But while the routes they take are often spectacular, these trains are not. ...",
+}
+{% endhighlight %}
+
+
 {% highlight python %}
 # Define the end point and parameters
 endpoint = 'scrapy/_find'
