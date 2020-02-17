@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "python-cloudant Couchdb Endpoint Access"
 date: 2018-05-12
