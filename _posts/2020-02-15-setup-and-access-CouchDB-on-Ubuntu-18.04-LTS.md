@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: "setup and access CouchDB on Ubuntu 18.04 LTS"
-date: 2020-02-17
+date: 2020-02-15
 author: gitificial
 description: "setup and access CouchDB on Ubuntu 18.04 LTS"
 categories: [system, couchdb]
