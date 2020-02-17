@@ -56,7 +56,8 @@ $ sudo snap info "couchdb"
 If the CouchDB server is running, you would get a response containing this line:
 ```bash
 ...
-services: couchdb.server: simple, enabled, active
+services: 
+    couchdb.server: simple, enabled, active
 ...
 ```
 
