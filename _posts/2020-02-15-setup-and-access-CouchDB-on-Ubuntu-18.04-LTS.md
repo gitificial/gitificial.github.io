@@ -63,13 +63,18 @@ Service         Startup    Current  Notes
 couchdb.server  aktiviert  aktiv    -
 ```
 
-You can start/stop the CouchDB server with the following commands:
+You can start/stop/restart the CouchDB server with the following commands:
 ```bash
 $ sudo snap start couchdb
 $ sudo snap stop couchdb
+$ sudo snap restart couchdb
 ```
 
-
+You can enable/disable automatic starting of the service at boot time. Use following commands:
+```bash
+sudo snap start --enable couchdb.server
+sudo snap stop --disable couchdb.server
+```
 
 <br/>
 You reach the servers Fauxton Web UI with your browser under the following URL:
