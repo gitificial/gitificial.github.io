@@ -10,7 +10,7 @@ tags: [virtualbox]
 ---
 
 <br/>
-A few days ago I tried to install a newer Virtualbox version on my machine. The Virtualbox installation worked flawlessly, but my VMs returned an error message on start. Maybe you have the same problem. To solve it is rather simple.
+A few days ago I tried to install a newer Virtualbox version on my machine. The Virtualbox installation worked flawlessly, but my VMs returned the error message "Kernel driver not installed" on start. Maybe you have the same problem. To solve it is rather simple.
 
 Tested with:
 
