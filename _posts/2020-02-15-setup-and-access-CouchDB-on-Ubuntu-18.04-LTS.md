@@ -10,7 +10,7 @@ tags: [Ubuntu 18.04 LTS, couchdb]
 ---
 
 <br/>
-???
+Apache [CouchDB](https://couchdb.apache.org/) is a document oriented NoSQL database. This post describes how to install CouchDB on a Ubuntu 18.04 LTS via snap.
 
 
 Tested with:
@@ -61,16 +61,18 @@ services:
 ...
 ```
 
+Stop the CouchDB server with:
+```bash
+$ sudo snap stop couchdb
+```
+
 <br/>
 You reach the servers Fauxton Web UI with your browser under the following URL:
 ```bash
 http://127.0.0.1:5984/_utils/
 ```
 
-Stop the CouchDB server with:
-```bash
-$ sudo snap stop couchdb
-```
+
 
 
 
