@@ -8,7 +8,9 @@ categories: [system, shell]
 tags: [tmux]
 ---
 
-The terminal multiplexer [tmux](https://tmux.github.io) allows to open multiple terminal sessions in a single window. 
+<br/>
+
+Working with the shell usually leads to more than one open terminal. But it's very tedious to open several terminals and bring them in place before you can start with your work. Fortunately the terminal multiplexer [tmux](https://tmux.github.io) allows you (beside other great features) to open multiple terminal sessions in a single window. And with a simple one-liner shell script you get the terminal arrangement you prefer. Here are just a few examples.
 
 
 Tested with:
