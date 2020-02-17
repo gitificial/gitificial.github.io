@@ -24,6 +24,11 @@ Tested with:
 |------------------+-----------------|
 
 
+The [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) gives you a list with all available endpoints. 
+
+Let's assume you want to get some statistics about a search result. You want to know how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with a for loop, but this costs you some extra computing time.   
+
+
 {% highlight json %}
 {
   "_id": "0062fa1f8efa4d9a94cd9fc0cd07f9d2",
