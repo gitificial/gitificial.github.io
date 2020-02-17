@@ -12,6 +12,15 @@ tags: [python, couchdb, python-cloudant]
 This example shows how to call a CouchDB endpoint directly through the python-cloudant Requests session object as described in [python-cloudant Endpoint access](https://python-cloudant.readthedocs.io/en/latest/getting_started.html#endpoint-access).
 
 
+Tested with:
+
+|------------------+-----------------|
+| OS/Software      |Version          |
+|------------------|:----------------|
+| Ubuntu           |18.04 LTS        |
+| CouchDB          |2.3.1            |
+| python-cloudant  |2.12.0           |
+|------------------+-----------------|
 
 
 {% highlight json %}
