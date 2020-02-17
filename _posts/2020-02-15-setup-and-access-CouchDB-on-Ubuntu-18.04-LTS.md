@@ -24,7 +24,7 @@ Tested with:
 
 <br/>
 
-???
+Use following command to install the CouchDB server on your system:
 
 ```bash
 $ sudo snap install couchdb
