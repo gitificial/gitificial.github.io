@@ -43,7 +43,7 @@ Use following command to check if the server is running:
 curl http://127.0.0.1:5984/
 ```
 
-If the CouchDB server is running, you would get the following response:
+If the CouchDB server is running, you would get a response similar to this:
 ```bash
 {"couchdb":"Welcome","version":"2.3.1","git_sha":"c298091a4","uuid":"304ecd0b303cfb59502f5fb090abba4b","features":["pluggable-storage-engines","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
 ```
