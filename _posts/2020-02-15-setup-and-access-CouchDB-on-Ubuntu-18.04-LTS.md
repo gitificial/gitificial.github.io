@@ -35,12 +35,12 @@ $ sudo snap install couchdb
 
 Start the CouchDB server with:
 ```bash
-sudo snap start couchdb
+$ sudo snap start couchdb
 ```
 
 Use following command to check if the server is running:
 ```bash
-curl http://127.0.0.1:5984/
+$ curl http://127.0.0.1:5984/
 ```
 
 If the CouchDB server is running, you would get a response similar to this:
@@ -56,7 +56,7 @@ http://127.0.0.1:5984/_utils/
 
 Stop the CouchDB server with:
 ```bash
-sudo snap stop couchdb
+$ sudo snap stop couchdb
 ```
 
 
