@@ -1,10 +1,10 @@
 ---
 published: true
 layout: post
-title: "python-cloudant CouchDB Endpoint Access"
+title: "python-cloudant CouchDB Endpoint access"
 date: 2020-02-17
 author: gitificial
-description: "python-cloudant Couchdb Endpoint Access"
+description: "python-cloudant Couchdb Endpoint access"
 categories: [python, couchdb]
 tags: [python, couchdb, python-cloudant]
 ---
