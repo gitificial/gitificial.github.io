@@ -14,7 +14,8 @@ layout: default
       <a href="/">home</a>
     </nav>
     <h1>{{ page.title }}</h1>
-    <h2>{{ page.date }}</h2>
+    {%- assign date_format = site.jekyll-theme-hacker.date_format | default: "%b %-d, %Y" -%}
+    <span class="post-meta">{{ page.date | date: date_format }}</span>
     <section>
       {{ content }}
     </section>
