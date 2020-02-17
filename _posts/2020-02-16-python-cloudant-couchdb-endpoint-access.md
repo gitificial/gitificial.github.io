@@ -55,7 +55,7 @@ db = client[DATABASE]
 
 # Define the end point and parameters
 endpoint = DATABASE + '/_find'
-params = {'selector': {'source': 'pcworld', 'searchterm': 'Joyent'}, 'execution_stats': True}
+params = {'selector': {'source': 'CNN', 'category': 'news'}, 'execution_stats': True}
 
 def endpointAccess(params, endpoint):
     end_point = '{0}/{1}'.format(client.server_url, endpoint)
