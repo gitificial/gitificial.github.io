@@ -26,7 +26,7 @@ Tested with:
 
 The [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) gives you a list with all available endpoints. 
 
-Let's assume you want to get some statistics about a search result. You want to know how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with a for loop, but this costs you some extra computing time.   
+Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with a for loop, but this costs you some extra computing time.   
 
 
 {% highlight json %}
@@ -41,19 +41,31 @@ Let's assume you want to get some statistics about a search result. You want to 
 
 
 {% highlight python %}
+import json
+from cloudant.client import CouchDB
+
+USERNAME = 'admin'
+PASSWORD = 'password'
+DATABASE = 'dbname'
+
+client = CouchDB(USERNAME, PASSWORD, url='http://127.0.0.1:5984', connect=True)
+
+# Open an existing database
+db = client[DATABASE]
+
 # Define the end point and parameters
-endpoint = 'scrapy/_find'
-params = {'selector': {'source': 'pcworld', 'searchterm': 'Joyent'}, 'execution$
+endpoint = DATABASE + '/_find'
+params = {'selector': {'source': 'pcworld', 'searchterm': 'Joyent'}, 'execution_stats': True}
 
 def endpointAccess(params, endpoint):
     end_point = '{0}/{1}'.format(client.server_url, endpoint)
     headers = {'Content-Type': 'application/json'}
-    response = db.r_session.post(end_point, headers=headers, data=json.dumps(pa$
+    response = db.r_session.post(end_point, headers=headers, data=json.dumps(params, cls=db.client.encoder))
     response = response.json()
     return response
 
 response = endpointAccess(params, endpoint)
-print(response['execution_stats']['results_returned'])
+print(response['execution_stats']['results_returned']
 {% endhighlight %}
 
 
