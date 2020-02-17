@@ -26,8 +26,10 @@ Tested with:
 
 The [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) gives you a list with all available endpoints. 
 
-Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with a for loop, but this costs you some extra computing time.   
+Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with e.g. a for loop, but this costs you some extra computing time. The better way is, to evaluate the basic statistics retrieved from the CouchDB JSON response. Set the 'execution_stats' field of the JSON request object to True and you will retrieve a JSON response object with the wanted statistics.
 
+
+Assuming that we have several documents with the following structure:
 
 {% highlight json %}
 {
@@ -39,6 +41,7 @@ Let's assume you want to get some statistics about a search result, e.g. how man
 }
 {% endhighlight %}
 
+With the following script example, we are able to retrieve the count of documents with a specific content. We want to know, how many documents have the field content 'source': 'CNN' and 'category': 'news' :
 
 {% highlight python %}
 import json
