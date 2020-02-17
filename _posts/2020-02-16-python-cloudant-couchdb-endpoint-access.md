@@ -25,7 +25,7 @@ Tested with:
 
 <br/>
 
-Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with e.g. a for loop, but this costs you some extra computing time. The better way is, to evaluate the basic statistics retrieved from the CouchDB JSON response. Set the 'execution_stats' field of the JSON request object to True and you will retrieve a JSON response object with the wanted statistics. (In the [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) you find a list with all available endpoints.)
+Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with e.g. a for-loop, but this costs you some extra computing time. The better way is, to evaluate the basic statistics retrieved from the CouchDB JSON response. Set the 'execution_stats' field of the JSON request object to True and you will retrieve a JSON response object with the wanted statistics. (In the [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) you find a list with all available endpoints.)
 
 
 Assuming that we have several documents with the following structure:
