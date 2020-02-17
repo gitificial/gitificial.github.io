@@ -10,7 +10,7 @@ tags: [python, couchdb, python-cloudant]
 ---
 
 <br/>
-This example shows how to call a CouchDB endpoint directly through the python-cloudant Requests session object as described in [python-cloudant Endpoint access](https://python-cloudant.readthedocs.io/en/latest/getting_started.html#endpoint-access).
+As far as I know, some CouchDB endpoints are not reachable through the [python-cloudant API](https://python-cloudant.readthedocs.io/en/latest/getting_started.html). This example shows you how to call a CouchDB endpoint directly through the python-cloudant Requests session object as described in [python-cloudant Endpoint access](https://python-cloudant.readthedocs.io/en/latest/getting_started.html#endpoint-access).
 
 
 Tested with:
@@ -23,10 +23,9 @@ Tested with:
 | python-cloudant  |2.12.0           |
 |------------------+-----------------|
 
+<br/>
 
-The [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) gives you a list with all available endpoints. 
-
-Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with e.g. a for loop, but this costs you some extra computing time. The better way is, to evaluate the basic statistics retrieved from the CouchDB JSON response. Set the 'execution_stats' field of the JSON request object to True and you will retrieve a JSON response object with the wanted statistics.
+Let's assume you want to get some statistics about a search result, e.g. how many documents where retrieved by a particular query. Of course, you can count the retrieved documents with e.g. a for loop, but this costs you some extra computing time. The better way is, to evaluate the basic statistics retrieved from the CouchDB JSON response. Set the 'execution_stats' field of the JSON request object to True and you will retrieve a JSON response object with the wanted statistics. (In the [CouchDB API Reference](https://docs.couchdb.org/en/latest/api/index.html) you find a list with all available endpoints.)
 
 
 Assuming that we have several documents with the following structure:
@@ -70,5 +69,7 @@ def endpointAccess(params, endpoint):
 response = endpointAccess(params, endpoint)
 print(response['execution_stats']['results_returned']
 {% endhighlight %}
+
+<br/>
 
 
