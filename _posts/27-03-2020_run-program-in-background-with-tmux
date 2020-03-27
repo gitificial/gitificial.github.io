@@ -1,0 +1,43 @@
+---
+published: false
+title: "run program in background with tmux"
+date: 27-03-2020
+author: gitificial
+description: "Run a python script at boot within a tmux session in the background."
+categories: [system, shell]
+tags: [tmux]
+---
+
+<br/>
+
+You want to run a webservice on 
+
+Tested with:
+
+|---------------+-----------------|
+| OS/Software   |Version          |
+|---------------|:----------------|
+| Ubuntu Server |18.04.4 LTS      |
+| tmux          |2.6              |
+|---------------+-----------------|
+
+<br/>
+
+Create a script i.e. called app_start.sh and add following content:
+```bash
+#!/bin/bash
+cd /home/user/app
+source venv/bin/activate
+cd app
+python3 app.py
+```
+
+Create a new cron job which starts at boot time. Edit your crontab with "crontab -e" and add following line: 
+```bash
+@reboot tmux new-session -d -s "appSession" /home/user/app/app_start.sh
+```
+
+*: To stop running tmux sessions, execute the following command:
+```bash
+$ tmux kill-session
+```
